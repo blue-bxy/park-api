@@ -1,0 +1,289 @@
+.content {
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.left_price {
+    width: 100%;
+    background: #fff;
+}
+
+.left_price_ty {
+    display: flex;
+    flex-direction: row;
+}
+
+.number_price {
+    display: flex;
+    flex-direction: column;
+}
+.number_two {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.number_three {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.number_threee {
+    width:33.3%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.number_text {
+    position: relative;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.number_text p {
+    text-align: center;
+    color: #171ada;
+    font-size: 13px;
+}
+.number_text span {
+    font-size: 12px;
+    color: #000;
+}
+.number_four {
+    position: relative;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: #9b9090;
+}
+
+.box {
+    width: 100%;
+    background-color: #fff;
+}
+
+.box_ui {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    z-index: 99999;
+    position: relative;
+}
+
+.box_ui div {
+    width: 50%;
+    text-align: center;
+}
+
+ul,li {
+    list-style: none;
+}
+.box_ul li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.box_price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box_color {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box_color div {
+    margin-left: 4%;
+}
+
+.blue {
+
+    width: 15px;
+    height: 15px;
+    background: blue;
+    border-radius: 5px;
+}
+
+.greey {
+    width: 15px;
+    height: 15px;
+    background: gold;
+    border-radius: 5px;
+}
+
+.red {
+    width: 15px;
+    height: 15px;
+    background: hotpink;
+    border-radius: 5px;
+}
+
+.trend {
+    width: 100%;
+    background: #fff;
+}
+
+.trend_text {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2%;
+}
+
+/*左下角折线图*/
+
+.left_botton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*中间地图*/
+
+.center {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 3%;
+    height: 600px;
+}
+
+.center_op {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+}
+
+.center_ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 10%;
+}
+
+.center_li {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+.center_li p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #171ada
+}
+
+.center_li span {
+    font-size: 13px;
+    color: #000;
+}
+
+.center_zhe {
+    width: 175%;
+    height: 410px;
+    background: #fff;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloum {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+
+/*右边运维*/
+.right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.xiu {
+    width: 100%;
+    background: #fff;
+    margin-top: 2%;
+    height: 380px;
+}
+
+.xiu_flex {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+.xiu_one {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xiu_name {
+    width:50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.xiu_name p{
+    color: #171ada;
+    font-size: 13px;
+}
+
+.xiu_name span {
+    font-size: 12px;
+    color: #000;
+}
+
+/*  */
+
+#main{
+    width:600px;
+    height:450px;
+    border:1px solid #ddd;
+}
+
+.Order {
+    display: flex;
+    flex-direction: row;
+}
+
+.Order_input {
+    display: flex;
+    flex-direction: row;
+}
+
+.Order_input p{
+    font-size: 18px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}

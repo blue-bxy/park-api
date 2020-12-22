@@ -1,0 +1,72 @@
+.instrtion {
+    width: 100%;
+    height: auto;
+}
+
+.instrtion_king {
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    border: 1px solid rgb(131, 126, 126);
+    margin-left: 25%;
+    flex-direction: column;
+}
+
+.instrtion_king h5 {
+    position: relative;
+    top: 2%;
+    left: 4%;
+    font-weight: 600;
+    
+}
+
+.instrtion_input {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+} 
+
+.instrtion_span {
+    width: 18%;
+}
+
+.instrtion_input input {
+    width: 280px;
+}
+
+.instrtion_input_link {
+    display: flex;
+    flex-direction: row;
+}
+
+.instrtion_input_link input {
+    width: 100px;
+    height: 30px;
+    margin-left: 3%;
+}
+
+.instrtion_input_colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.instrtion_input_gots input {
+    width: 200px;
+    height: 30px;
+    /* margin-top: 10%; */
+}
+
+.instrtion_input_gots {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.instrtion_input_go input {
+    width: 200px;
+    height: 30px;
+    /* margin-left: 3%; */
+}
